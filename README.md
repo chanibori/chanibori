@@ -1,14 +1,13 @@
-2021.01.17
-  블로그를 만들어봐야겠다고 생각하면서, 여러가지 방법을 생각해봤는데 wordpress를 사용해보면 좋을거같아서 이렇게 새로운 repo를 만들어서 내 블로그를 위한 theme를 만들어 보려고 한다.
-  local에서 Docker -> wordpress, mysql 이렇게 올려둔 상태이고 theme를 만들고 나서 따른 hosting방법을 생각해보려고 한다.
+# 2021.01.17
+블로그를 만들어봐야겠다고 생각하면서, 여러가지 방법을 생각해봤는데 wordpress를 사용해보면 좋을거같아서 이렇게 새로운 repo를 만들어서 내 블로그를 위한 theme를 만들어 보려고 한다.
+local에서 Docker -> wordpress, mysql 이렇게 올려둔 상태이고 theme를 만들고 나서 따른 hosting방법을 생각해보려고 한다.
   
-  docker run -d --name mysql -v mysql:/var/lib/mysql -e MYSQL_ROOT_PASSWORD=wordpress -e MYSQL_DATABASE=wordpress -e MYSQL_USER=wordpress -e MYSQL_PASSWORD=wordpress mysql:5.7
-  docker run -d --name wordpress -v /Users/chankim/Desktop/chanibori/wp-content:/var/www/html/wp-content --link mysql:mysql -e WORDPRESS_DB_HOST=mysql:3306 -e WORDPRESS_DB_PASSWORD=wordpress -p 80:80 wordpress:latest
+- docker run -d --name mysql -v mysql:/var/lib/mysql -e MYSQL_ROOT_PASSWORD=wordpress -e MYSQL_DATABASE=wordpress -e MYSQL_USER=wordpress -e MYSQL_PASSWORD=wordpress mysql:5.7
+- docker run -d --name wordpress -v /Users/chankim/Desktop/chanibori/wp-content:/var/www/html/wp-content --link mysql:mysql -e WORDPRESS_DB_HOST=mysql:3306 -e WORDPRESS_DB_PASSWORD=wordpress -p 80:80 wordpress:latest
 
-  아래 내용들은 보니까 내 아이디랑, repo 이름이 같아서 README.md에 자동적으로 생긴 내용같은데 신기하네 ㅎㅎ
+아래 내용들은 보니까 내 아이디랑, repo 이름이 같아서 README.md에 자동적으로 생긴 내용같은데 신기하네 ㅎㅎ
+
 ### Hi there 👋
-
-<!--
 **chanibori/chanibori** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
 Here are some ideas to get you started:
@@ -21,4 +20,3 @@ Here are some ideas to get you started:
 - 📫 How to reach me: ...
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
--->
