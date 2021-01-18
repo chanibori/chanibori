@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the WordPress - 5.6.x - Development package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2021-01-17 08:38:32+0000\n"
+"PO-Revision-Date: 2021-01-18 05:40:14+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -14,7 +14,7 @@ msgstr ""
 #: wp-includes/script-loader.php:1473
 msgctxt "Google Font Name and Variants"
 msgid "Noto Serif:400,400i,700,700i"
-msgstr "노토 세리프:400, 400i,700,700i"
+msgstr "Noto Serif:400,400i,700,700i"
 
 #: wp-includes/comment-template.php:915
 msgctxt "Comment number declension: on or off"
@@ -616,7 +616,7 @@ msgstr "두 개의 예시 이미지가 있는 이미지 갤러리입니다."
 #: wp-includes/block-patterns/large-header-button.php:13
 msgctxt "Block pattern description"
 msgid "A large hero section with a bright gradient background, a big heading and a filled button."
-msgstr "밝은 그라데이션 배경, 큰 헤ㄱ딩과 채워진 버튼이 있는 큰 영웅 구역이 있습니다."
+msgstr "밝은 그라데이션 배경, 큰 헤딩과 채워진 버튼이 있는 큰 영웅 구역이 있습니다."
 
 #: wp-includes/block-patterns/large-header-button.php:9
 msgid "Large header with a heading and a button "
@@ -807,7 +807,7 @@ msgstr "버튼"
 #. translators: 1: WP_REST_Response, 2: WP_Error
 #: wp-includes/functions.php:4101
 msgid "Return a %1$s or %2$s object from your callback when using the REST API."
-msgstr "레스트 API를 이용할 때 콜백에서 %1$s 또는 %2$s 객체를 반환합니다."
+msgstr "REST API를 이용할 때 콜백에서 %1$s 또는 %2$s 객체를 반환합니다."
 
 #. translators: Unit symbol for byte.
 #: wp-includes/functions.php:461 wp-includes/functions.php:466
@@ -1654,7 +1654,7 @@ msgstr "비밀번호로 보호하고 있습니다"
 
 #: wp-includes/rest-api.php:51
 msgid "Namespace must not start or end with a slash."
-msgstr "내임스패이스는 슬래시로 시작하거나 끝나서는 안됩니다."
+msgstr "네임스페이스는 슬래시로 시작하거나 끝나서는 안됩니다."
 
 #: wp-includes/class-wp-xmlrpc-server.php:3386
 #: wp-includes/class-wp-xmlrpc-server.php:3389
@@ -1712,7 +1712,7 @@ msgstr "이전과 다음 달"
 
 #: wp-includes/option.php:2259
 msgid "When registering an \"array\" setting to show in the REST API, you must specify the schema for each array item in \"show_in_rest.schema.items\"."
-msgstr "레스트 API에 보일 “배열” 설정을 등록할 때, “show_in_rest.schema.items”의 각 배열 항목에 대하여 계층을 지정해야만 합니다."
+msgstr "REST API에 보일 “배열” 설정을 등록할 때, “show_in_rest.schema.items”의 각 배열 항목에 대하여 계층을 지정해야만 합니다."
 
 #: wp-includes/user.php:3341
 msgid "User&#8217;s Session Tokens data."
@@ -3475,7 +3475,7 @@ msgstr "댓글 날짜"
 
 #: wp-includes/comment.php:3621
 msgid "Comment Author User Agent"
-msgstr "댓글 작성자 회원 에이전트"
+msgstr "댓글 글쓴이 사용자 에이전트"
 
 #: wp-includes/comment.php:3620
 msgid "Comment Author IP"

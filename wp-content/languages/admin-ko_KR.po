@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the WordPress - 5.6.x - Development - Administration package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2021-01-16 08:42:21+0000\n"
+"PO-Revision-Date: 2021-01-18 05:45:03+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -91,7 +91,7 @@ msgstr "API의 새 응용 프로그램 비밀번호 인증 기능 덕분에 외�
 
 #: wp-admin/about.php:190
 msgid "REST API authentication with Application Passwords"
-msgstr "응용 프로그램 비밀번호로 레스트 API 인증"
+msgstr "응용 프로그램 비밀번호로 REST API 인증"
 
 #: wp-admin/about.php:181
 msgid "If you’ve not had the chance to play with block patterns yet, all default themes now feature a range of block patterns that let you master complex layouts with minimal effort. Customize the patterns to your liking with the copy, images and colors that fit your story or brand."
@@ -152,7 +152,7 @@ msgstr "코드 없이 래이아웃을 편집하도록 하는 좀 더 많은 도�
 
 #: wp-admin/about.php:77
 msgid "Greater layout flexibility"
-msgstr "더 향상한 래이아웃 유연성"
+msgstr "더 향상한 레이아웃 유연성"
 
 #. translators: %s: The current WordPress version number.
 #: wp-admin/about.php:67
@@ -825,7 +825,7 @@ msgstr "%s을(를) 활성화할 수 없습니다"
 
 #: wp-admin/themes.php:296 wp-admin/network/themes.php:407
 msgid "Theme will no longer be auto-updated."
-msgstr "테마를 더 이상 자동 업데이트하지 않을 ㄱ니다."
+msgstr "테마를 더 이상 자동 업데이트하지 않을 것입니다."
 
 #: wp-admin/themes.php:292 wp-admin/network/themes.php:398
 msgid "Theme will be auto-updated."
@@ -1459,7 +1459,7 @@ msgstr "새로 추가하기"
 #. translators: %s: .htaccess
 #: wp-admin/options-permalink.php:168 wp-admin/options-permalink.php:181
 msgid "You should update your %s file now."
-msgstr "지금 %s 파일야 업데이트해야 합니다."
+msgstr "지금 %s 파일을 업데이트해야 합니다."
 
 #: wp-admin/update-core.php:171
 msgid "This localized version contains both the translation and various other localization fixes."
@@ -3824,7 +3824,7 @@ msgstr "만들었습니다"
 #: wp-admin/edit-form-blocks.php:194
 msgctxt "CSS Font Family for Editor Font"
 msgid "Noto Serif"
-msgstr "노토 세리프"
+msgstr "Noto Serif"
 
 #. translators: First post content. %s: Site link.
 #: wp-admin/includes/upgrade.php:228
@@ -5588,7 +5588,7 @@ msgstr "푸터 위젯"
 
 #: wp-admin/includes/theme.php:322
 msgid "Grid Layout"
-msgstr "격자 래이아웃"
+msgstr "격자 레이아웃"
 
 #: wp-admin/includes/template.php:2588
 msgid "This will replace the current editor content with the last backup version. You can use undo and redo in the editor to get the old content back or to return to the restored version."
@@ -10597,7 +10597,7 @@ msgstr "<strong>무작위:</strong> 각 페이지에 다른 이미지를 보입�
 #: wp-admin/includes/theme.php:321 wp-admin/includes/theme.php:357
 #: wp-admin/includes/class-wp-screen.php:1207 wp-admin/index.php:68
 msgid "Layout"
-msgstr "래이아웃"
+msgstr "레이아웃"
 
 #: wp-admin/users.php:282
 msgid "You have specified this user for deletion:"
