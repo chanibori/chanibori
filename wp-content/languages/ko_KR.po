@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the WordPress - 5.6.x - Development package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2021-01-18 05:40:14+0000\n"
+"PO-Revision-Date: 2021-01-21 09:42:59+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -627,14 +627,14 @@ msgstr "헤딩과 버튼이 있는 큰 제목이 있습니다 "
 #: wp-admin/themes.php:848 wp-admin/themes.php:980
 #: wp-admin/theme-install.php:320 wp-admin/theme-install.php:506
 msgid "This theme doesn&#8217;t work with your version of PHP."
-msgstr "이 테마는 PHP의 버전에 동작하지 않습니다."
+msgstr "이 테마는 현재 PHP 버전에서 동작하지 않습니다."
 
 #: wp-includes/customize/class-wp-customize-theme-control.php:209
 #: wp-admin/includes/theme.php:953 wp-admin/themes.php:492
 #: wp-admin/themes.php:837 wp-admin/themes.php:969
 #: wp-admin/theme-install.php:309 wp-admin/theme-install.php:495
 msgid "This theme doesn&#8217;t work with your version of WordPress."
-msgstr "이 테마는 워드프레스의 버전에 동작하지 않습니다."
+msgstr "이 테마는 현재 워드프레스의 버전에서 동작하지 않습니다."
 
 #. translators: %s: URL to Update PHP page.
 #: wp-includes/customize/class-wp-customize-theme-control.php:136
@@ -697,7 +697,7 @@ msgstr "<a href=\"%1$s\">워드프레스를 업데이트하고</a>, 다음<a hre
 #: wp-admin/themes.php:811 wp-admin/themes.php:943
 #: wp-admin/theme-install.php:283 wp-admin/theme-install.php:469
 msgid "This theme doesn&#8217;t work with your versions of WordPress and PHP."
-msgstr "이 테마는 워드프레스와 PHP의 버전에 동작하지 않습니다."
+msgstr "이 테마는 현재 워드프레스와 PHP 버전에서 동작하지 않습니다."
 
 #. translators: %s: register_rest_field
 #: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:2474
@@ -2291,7 +2291,7 @@ msgstr "첨부 미리보기"
 
 #: wp-includes/media-template.php:232
 msgid "Your browser cannot upload files"
-msgstr "브라우저는 파일을 업로드할 수 없습니다"
+msgstr "이 브라우저로 파일을 업로드할 수 없습니다"
 
 #: wp-includes/class-wp-xmlrpc-server.php:615 wp-includes/option.php:2186
 msgid "Allow people to submit comments on new posts."
@@ -3459,7 +3459,7 @@ msgstr "승인됨"
 #: wp-includes/post.php:422 wp-includes/post.php:987
 msgctxt "request status"
 msgid "Pending"
-msgstr "대기 중"
+msgstr "대기중"
 
 #: wp-includes/comment.php:3624
 msgid "Comment URL"
@@ -4132,7 +4132,7 @@ msgstr "장"
 
 #: wp-includes/script-loader.php:935
 msgid "You are using a browser that does not have Flash player enabled or installed. Please turn on your Flash player plugin or download the latest version from https://get.adobe.com/flashplayer/"
-msgstr "플래시 재생기를 활성화하지 않거나 설치하지 않은 브라우저를 사용하고 있습니다. 플래시 재생기 플러그인을 켜거나 https://get.adobe.com/flashplayer/에서 최신버전을 다운로드하기 바랍니다"
+msgstr "Flash Player를 활성화하지 않거나 설치하지 않은 브라우저를 사용하고 있습니다. Flash Player 플러그인을 켜거나 https://get.adobe.com/flashplayer/에서 최신버전을 다운로드하기 바랍니다"
 
 #. translators: %s: register_routes()
 #: wp-includes/rest-api/endpoints/class-wp-rest-controller.php:52
@@ -4326,7 +4326,7 @@ msgstr "오디오 바꾸기"
 #: wp-includes/customize/class-wp-customize-media-control.php:235
 #: wp-includes/customize/class-wp-customize-media-control.php:240
 msgid "Select audio"
-msgstr "오디오 고르기"
+msgstr "오디오 선택하기"
 
 #. translators: %s: Header height in pixels.
 #: wp-includes/customize/class-wp-customize-header-image-control.php:219
@@ -6991,7 +6991,7 @@ msgstr "검색 결과"
 
 #: wp-includes/class-wp-editor.php:1361
 msgid "Rich Text Area. Press Control-Option-H for help."
-msgstr "리치 텍스트 영역입니다. 도움을 위해 Control-Option-H를 누르세요."
+msgstr "리치 텍스트 영역입니다. 도움말은 Control-Option-H를 누르세요."
 
 #: wp-includes/script-loader.php:940
 msgid "Use Left/Right Arrow keys to advance one second, Up/Down arrows to advance ten seconds."
@@ -7318,7 +7318,7 @@ msgstr "비공개"
 #: wp-includes/post.php:358 wp-admin/includes/template.php:2196
 msgctxt "post status"
 msgid "Pending"
-msgstr "대기 중"
+msgstr "대기중"
 
 #: wp-includes/post.php:343 wp-admin/includes/template.php:2189
 msgctxt "post status"
@@ -8626,7 +8626,7 @@ msgstr "발견한 항목 개수: %d"
 #: wp-includes/class-wp-customize-nav-menus.php:526
 #: wp-admin/includes/class-walker-nav-menu-edit.php:107
 msgid "%s (Pending)"
-msgstr "%s (보류 중)"
+msgstr "%s (대기중)"
 
 #. translators: %s: Title of an invalid menu item.
 #: wp-includes/class-wp-customize-nav-menus.php:524
@@ -8913,7 +8913,7 @@ msgstr "날짜 선택하기"
 #: wp-includes/widgets/class-wp-widget-archives.php:87
 #: wp-includes/blocks/archives.php:45
 msgid "Select Year"
-msgstr "년도 선택하기"
+msgstr "연도 선택하기"
 
 #. translators: %s: Post title.
 #: wp-includes/comment-template.php:1596
@@ -9009,7 +9009,7 @@ msgstr "단축키 주목하기:"
 
 #: wp-includes/class-wp-editor.php:1360
 msgid "Rich Text Area. Press Alt-Shift-H for help."
-msgstr "리치 문자 영역입니다. 도움말은 Alt-Shift-H를 누르세요."
+msgstr "리치 텍스트 영역입니다. 도움말은 Alt-Shift-H 키를 누르세요."
 
 #. translators: 1: Month, 2: Day of month.
 #: wp-includes/class-wp-date-query.php:446
@@ -9590,7 +9590,7 @@ msgstr "자르는 중&hellip;"
 #: wp-includes/widgets/class-wp-widget-media-video.php:87
 #: wp-includes/media-template.php:1424 wp-includes/media-template.php:1440
 msgid "Tracks (subtitles, captions, descriptions, chapters, or metadata)"
-msgstr "트랙 (ㅈ, 설명, 상세 설명, 장, 또는 메타자료)"
+msgstr "트랙 (부제, 캡션, 설명, 챕터, 또는 메타자료)"
 
 #: wp-includes/class-wp-customize-widgets.php:695
 msgid "Move to another area&hellip;"
@@ -11329,7 +11329,7 @@ msgstr "유효하지 않은 텍소노미입니다."
 
 #: wp-includes/widgets/class-wp-widget-links.php:147
 msgid "Select Link Category:"
-msgstr "링크 카테고리 선택하기:"
+msgstr "링크 카테고리를 선택하세요:"
 
 #: wp-includes/class-wp-xmlrpc-server.php:528 wp-admin/includes/file.php:53
 #: wp-admin/includes/file.php:61
@@ -13182,7 +13182,7 @@ msgstr[0] "비공개 <span class=\"count\">(%s)</span>"
 #: wp-includes/post.php:362 wp-includes/post.php:426
 msgid "Pending <span class=\"count\">(%s)</span>"
 msgid_plural "Pending <span class=\"count\">(%s)</span>"
-msgstr[0] "대기 중입니다 <span class=\"count\">(%s)</span>"
+msgstr[0] "대기중 <span class=\"count\">(%s)</span>"
 
 #. translators: %s: Number of draft posts.
 #: wp-includes/post.php:347
