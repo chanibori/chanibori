@@ -1,10 +1,11 @@
 ### Hi there 👋
 ✨ _Welcome to my github_ ✨ 
 
-Here are something about me :
+#### Here are something about me 👋
 
+- 🐵 I live in Seoul, Korea with my pet "[🐶Bori](https://m.youtube.com/channel/UCkskqwtod2vp2UzgBs_aQIg)"
 
-##### 🌱 I’m currently learning ... 
+- 🌱 I’m currently learning ... 
     > `CS(ComputerScience, DataStructure)` `Python` `Java(Spring framework)` `Making blog theme by WP`
 
 - 💬 Ask me about ...
