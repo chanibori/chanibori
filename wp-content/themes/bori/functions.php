@@ -1,10 +1,12 @@
 <?php
 
     function bori_theme_support() {
-        # c : header.php에 보면 <title></title>이 있어야하지만 이 method가 그부분을 자동적으로 해결해줌
-        # Adds dynamic title tag support 
+        // Adds dynamic title tag support  
+        // c : header.php에 보면 <title></title>이 있어야하지만 이 method가 그부분을 자동적으로 해결해줌
+        // c : add_theme_support('post-thumbnails');를 추가하자 글쓰기 화면에 '특성 이미지' 설정할수 있는 항목이 생겼다.
         add_theme_support('title-tag');
         add_theme_support('custom-logo');
+        add_theme_support('post-thumbnails');
     }
     add_action('after_setup_theme', 'bori_theme_support');
 
@@ -16,7 +18,7 @@
 
         );
 
-        register_nav_menus($locations);
+        register_nav_menus($locations); 
     }
     add_action('init','bori_menus');
 
