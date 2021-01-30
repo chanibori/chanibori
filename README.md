@@ -12,5 +12,6 @@
 Email address : _kimchan0765@gmail.com_, and this Github account.
 
 ##### ⚡ Fun fact ...
-Actually, I majored in Engilsh Literature. I have studied program language since 2018. 
+Actually, I majored in Engilsh Literature. I have studied program language since 2018.
+ 
 I like to exercise⚽️🎾 with my friends. Also, I like taking a walk with my dog.
