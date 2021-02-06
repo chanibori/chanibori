@@ -1,6 +1,9 @@
 <?php
 
-    function bori_theme_support() {
+    /**
+     * 
+     */
+    function bori_theme_support() { 
         // Adds dynamic title tag support  
         // c : header.php에 보면 <title></title>이 있어야하지만 이 method가 그부분을 자동적으로 해결해줌
         // c : add_theme_support('post-thumbnails');를 추가하자 글쓰기 화면에 '특성 이미지' 설정할수 있는 항목이 생겼다.
@@ -10,6 +13,9 @@
     }
     add_action('after_setup_theme', 'bori_theme_support');
 
+    /**
+     * 
+     */
     function bori_menus() {
 
         $locations = array(
@@ -22,6 +28,9 @@
     }
     add_action('init','bori_menus');
 
+    /**
+     * 
+     */
     function bori_register_styles() {
 
         # c : 이부분을 통해 bori/style.css의 맨위에 선언해둔 테마 정보 중 version의 값을 가져온다.
@@ -36,6 +45,9 @@
     # c : Wordpress가 아래 hook을 실행하면, 내가 위에 만든 function인 bori_register_styles를 실행시킨다는 의미
     add_action( 'wp_enqueue_scripts', 'bori_register_styles');
 
+    /**
+     * 
+     */
     function bori_register_scripts() {
 
         # c : 마지막 param을 true로 설정하면 해당 값을 footer에서 include ( default는 false인데 그럴 경우, wp_head()부에 include된다. )
@@ -48,6 +60,9 @@
     # c : Wordpress가 아래 hook을 실행하면, 내가 위에 만든 function인 bori_register_scripts를 실행시킨다는 의미
     add_action( 'wp_enqueue_scripts', 'bori_register_scripts');
 
+    /**
+     * 
+     */
     function bori_widget_areas() {
 
         register_sidebar(

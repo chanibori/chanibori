@@ -10,7 +10,7 @@
     <link rel="shortcut icon" href="/wp-content/themes/bori/assets/images/logo.png">  <!-- c: Favicon 이미지 저장경로 -->  
 
     <?php
-    wp_head(); # <== c: wordpress의 head부를 의미
+    	wp_head(); # <== c: wordpress의 head부를 의미
     ?>
 
 </head> 
@@ -25,18 +25,18 @@
 	    <nav class="navbar navbar-expand-lg navbar-dark" >
            
 			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation" aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
-			<span class="navbar-toggler-icon"></span>
+				<span class="navbar-toggler-icon"></span>
 			</button>
 
 			<div id="navigation" class="collapse navbar-collapse flex-column" >
 				<?php
-				if(function_exists('the_custom_logo')) {
-					
-					$custom_logo_id = get_theme_mod('custom_logo');
-					$logo = wp_get_attachment_image_src($custom_logo_id);
+					if(function_exists('the_custom_logo')) {
+						
+						$custom_logo_id = get_theme_mod('custom_logo');
+						$logo = wp_get_attachment_image_src($custom_logo_id);
 
-					// print_r($logo); // 에러 출력
-				}
+						// print_r($logo); // 에러 출력
+					}
 				?>
 				<img class="mb-3 mx-auto logo" src="<?php echo $logo[0] ?>" alt="logo" >			
 				
