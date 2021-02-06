@@ -48,4 +48,33 @@
     # c : Wordpress가 아래 hook을 실행하면, 내가 위에 만든 function인 bori_register_scripts를 실행시킨다는 의미
     add_action( 'wp_enqueue_scripts', 'bori_register_scripts');
 
+    function bori_widget_areas() {
+
+        register_sidebar(
+            array(
+                'before_title' => '',
+                'after_title' => '',
+                'before_widget' => '',
+                'after_widget' => '',
+                'name' => 'Sidebar Area',
+                'id' => 'sidebar-1',
+                'description' => 'Sidebar Widget Area'
+            )
+        );
+
+        register_sidebar(
+            array(
+                'before_title' => '',
+                'after_title' => '',
+                'before_widget' => '',
+                'after_widget' => '',
+                'name' => 'Footer Area',
+                'id' => 'footer-1',
+                'description' => 'Footer Widget Area'
+            )
+        );
+
+    }
+    add_action( 'widgets_init', 'bori_widget_areas' );
+
 ?>

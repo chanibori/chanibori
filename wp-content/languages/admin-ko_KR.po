@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the WordPress - 5.6.x - Development - Administration package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2021-01-18 11:44:44+0000\n"
+"PO-Revision-Date: 2021-02-01 01:28:20+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -27,29 +27,49 @@ msgstr "Asia/Seoul"
 msgid "Continue"
 msgstr "계속하기"
 
+#. translators: %s: The server PHP version.
+#: wp-admin/includes/dashboard.php:1758
+msgid "Your site is running an outdated version of PHP (%s), which should be updated."
+msgstr "사이트가 업데이트가 필요한 이전 버전의 PHP (%s)에서 실행 중입니다."
+
+#. translators: %s: The server PHP version.
+#: wp-admin/includes/dashboard.php:1752
+msgid "Your site is running an insecure version of PHP (%s), which should be updated."
+msgstr "사이트가 업데이트가 필요한 PHP (%s)의 보안되지 않은 버전에서 실행 중 입니다."
+
+#: wp-admin/includes/dashboard.php:42
+msgid "PHP Update Recommended"
+msgstr "PHP 업데이트 권장"
+
+#. translators: %s: The minimum recommended PHP version.
+#: wp-admin/includes/class-wp-site-health.php:729
+#: wp-admin/includes/dashboard.php:1770
+msgid "PHP is the programming language used to build and maintain WordPress. Newer versions of PHP are created with increased performance in mind, so you may see a positive effect on your site&#8217;s performance. The minimum recommended version of PHP is %s."
+msgstr "PHP는 워드프레스를 구축하고 유지보수하는데 사용한 프로그래밍 언어입니다. PHP의 최신 버전은 향상된 성능을 염두에 두고 만들어져, 사이트&8217;성능의 개선된 효과를 보여줍니다. 권장되는 PHP 최소 버전은 %s입니다."
+
 #: wp-admin/user-edit.php:766 wp-admin/authorize-application.php:93
 msgid "Your website appears to use Basic Authentication, which is not currently compatible with Application Passwords."
 msgstr "웹사이트가 현재 응용 프로그램 비밀번호와 호환하지 않는 기본 인증을 사용하는 것으로 보입니다."
 
-#: wp-admin/about.php:227
+#: wp-admin/about.php:260
 msgid "https://wordpress.org/plugins/enable-jquery-migrate-helper/"
 msgstr "https://wordpress.org/plugins/enable-jquery-migrate-helper/"
 
-#: wp-admin/about.php:216
+#: wp-admin/about.php:249
 msgid "https://wordpress.org/plugins/wp-jquery-update-test/"
 msgstr "https://wordpress.org/plugins/wp-jquery-update-test/"
 
 #. translators: 1: WordPress accessibility-ready guidelines link, 2: WCAG
 #. information link.
-#: wp-admin/about.php:123
+#: wp-admin/about.php:156
 msgid "What’s more, this default theme puts accessibility at the heart of your website. It conforms to the <a href=\"%1$s\">WordPress accessibility-ready guidelines</a> and addresses several more specialized standards from the <a href=\"%2$s\">Web Content Accessibility Guidelines (WCAG) 2.1 at level AAA</a>. It will help you meet the highest level of international accessibility standards when you create accessible content and choose plugins which are accessible too!"
 msgstr "또한 이 기본 테마는 웹사이트의 중심부에 접근성을 제공합니다. <a href=\"%1$s\">워드프레스 접근성준비 지침</a>을 준수하고 <a href=\"%2$s\">AAA 수준의 웹 콘텐츠 접근성 지침(WCAG) 2.1</a>에서 여러 특화 표준을 설명합니다. 접근성 콘텐츠를 만들거나 접근성이 있는 플러그인을 선택할 때도 가장 높은 수준이나 국제적인 접근성 표준을 충족하도록 도울 수 있습니다!"
 
-#: wp-admin/about.php:91
+#: wp-admin/about.php:124
 msgid "To help you add subtitles or captions to your videos, you can now upload them within your post or page. This makes it easier than ever to make your videos accessible for anyone who needs or prefers to use subtitles."
 msgstr "비디오에 자막이나 설명을 넣도록 도우려면, 이제 글이나 페이지 내에 업로드할 수 있습니다. 이를 통해 필요하거나 자막 사용을 선호하는 누군가에 대한 비디오 접근성을 만드는 것을 보다 쉽게 합니다."
 
-#: wp-admin/about.php:90
+#: wp-admin/about.php:123
 msgid "Upload video captions directly in the block editor"
 msgstr "블록 편집기에서 비디오 설명을 직접 업로드하기"
 
@@ -58,99 +78,99 @@ msgid "https://developer.wordpress.org/rest-api/frequently-asked-questions/#why-
 msgstr "https://developer.wordpress.org/rest-api/frequently-asked-questions/#why-is-authentication-not-working"
 
 #. translators: %s: WordPress 5.6 Field Guide link.
-#: wp-admin/about.php:243
+#: wp-admin/about.php:276
 msgid "Check out the latest version of the WordPress Field Guide. It highlights developer notes for each change you may want to be aware of. <a href=\"%s\">WordPress 5.6 Field Guide.</a>"
 msgstr "워드프레스 항목 지침의 최신 버전을 확인하세요. 이는 알고자 하는 각 변경 사항에 대한 개발자 노트를 강조하여 보입니다. <a href=\"%s\">워드프레스 5.6 항목지침입니다.</a>"
 
 #. translators: %s: jQuery Migrate plugin link.
-#: wp-admin/about.php:224
+#: wp-admin/about.php:257
 msgid "If you find issues with the way your site looks (e.g. a slider doesn’t work, a button is stuck — that sort of thing), install the <a href=\"%s\">jQuery Migrate plugin</a>."
 msgstr "사이트 외관에 문제를 발견했다면(예. 슬라이더가 동작하지 않습니다, 버튼이 멈춥니다 — 이런 것들), <a href=\"%s\">jQuery 마이그레이트 플러그인</a>을 설치하세요."
 
 #. translators: %s: jQuery update test plugin link.
-#: wp-admin/about.php:213
+#: wp-admin/about.php:246
 msgid "Updates to jQuery in WordPress take place across three releases: 5.5, 5.6, and 5.7. As we reach the mid-point of this process, run the <a href=\"%s\">update test plugin</a> to check your sites for errors ahead of time."
 msgstr "워드프레스에서 jQuery 업데이트는 세 릴리즈를 통해 진행합니다: 5.5, 5.6, 그리고 5.7. 이 절차의 중간 지점에 도달하면, 사이트에 오류가 있는지 미리 확인할 수 있는 <a href=\"%s\">시험 플러그인 업데이트</a>를 실행하세요."
 
-#: wp-admin/about.php:208
+#: wp-admin/about.php:241
 msgid "jQuery"
 msgstr "jQuery"
 
 #. translators: %s: WordPress and PHP 8 dev note link.
-#: wp-admin/about.php:199
+#: wp-admin/about.php:232
 msgid "5.6 marks the first steps toward WordPress Core support for PHP 8. Now is a great time to start planning how your WordPress products, services and sites can support the latest PHP version. For more information about what to expect next, <a href=\"%s\">read the PHP 8 developer note</a>."
 msgstr "5.6은 PHP 8에 대한 워드프레스 코어 지원을 위해 한 발을 내딛었습니다. 지금이 워드프레스 제품, 서비스와 사이트가 어떻게 최신 PHP 버전을 지원할 수 있는지 계획하기 좋은 때입니다. 다음에 기대할 상황에 대한 자세한 내용은, <a href=\"%s\">PHP 8 개발자 노트를 읽으세요</a>."
 
-#: wp-admin/about.php:194
+#: wp-admin/about.php:227
 msgid "More PHP 8 support"
 msgstr "더 많은 PHP 8 지원"
 
-#: wp-admin/about.php:191
+#: wp-admin/about.php:224
 msgid "Thanks to the API’s new Application Passwords authorization feature, third-party apps can connect to your site seamlessly and securely. This new REST API feature lets you see what apps are connecting to your site and control what they do."
 msgstr "API의 새 응용 프로그램 비밀번호 인증 기능 덕분에 외부의 도움 없이 사이트에서 원활하고 안전하게 연결할 수 있습니다. 이 새 레스트 API 기능은 어떤 앱을 사이트에 연결하게하고 무엇을 제어하게 할 것인지 보게 합니다."
 
-#: wp-admin/about.php:190
+#: wp-admin/about.php:223
 msgid "REST API authentication with Application Passwords"
 msgstr "응용 프로그램 비밀번호로 REST API 인증"
 
-#: wp-admin/about.php:181
+#: wp-admin/about.php:214
 msgid "If you’ve not had the chance to play with block patterns yet, all default themes now feature a range of block patterns that let you master complex layouts with minimal effort. Customize the patterns to your liking with the copy, images and colors that fit your story or brand."
 msgstr "아직 블록 패턴으로 즐겨본 적이 없다면, 이제 모든 기본 테마는 최소한의 노력으로 복잡한 래이아웃을 능숙하게 할 블록 패턴의 범위를 갖췄습니다. 사용자 정의 도구는 패턴을 이야기나 브랜드에 알맞는 사본, 이미지와 색상으로 연결합니다."
 
-#: wp-admin/about.php:180
+#: wp-admin/about.php:213
 msgid "Built-in patterns"
 msgstr "내장 패턴"
 
 #. translators: %s: Accessibility statement feature plugin link.
-#: wp-admin/about.php:173
+#: wp-admin/about.php:206
 msgid "Even if you’re not an expert, you can start letting folks know about your site’s commitment to accessibility at the click of a button! The new <a href=\"%s\">feature plugin</a> includes template copy for you to update and publish, and it’s written to support different contexts and jurisdictions."
 msgstr "전문가가 아닌 경우에라도, 버튼을 눌러 사이트의 접근성에 대한 노력을 사람들이 알도록 할 수 있습니다! 새 <a href=\"%s\">기능 플러그인</a>은 업데이트하거나 발행할 템플릿 사본을 포함하고, 다른 맥락과 관할을 지원하도록 작성했습니다."
 
-#: wp-admin/about.php:168
+#: wp-admin/about.php:201
 msgid "Accessibility statement template"
 msgstr "접근성 설명 템플릿"
 
-#: wp-admin/about.php:165
+#: wp-admin/about.php:198
 msgid "For years, only developers have been able to update WordPress automatically. But now, you have that option, right in your dashboard. If this is your first site, you have auto-updates ready to go, right now! Upgrading an existing site? No problem! Everything is the same as it was before."
 msgstr "몇 년 동안, 개발자들만 워드프레스를 자동으로 업데이트할 수 있었습니다. 하지만 이제, 여러분도 여러분의 알림판에서 그 옵션을 가졌습니다. 이번이 첫 사이트라면, 바로 지금 자동 업데이트를 사용할 수 있습니다! 이미 있는 사이트를 업그레이드하나요? 문제 없습니다! 모든 것이 이전과 같습니다."
 
-#: wp-admin/about.php:164
+#: wp-admin/about.php:197
 msgid "Expanding auto-updates"
 msgstr "자동 업데이트 확장하기"
 
-#: wp-admin/about.php:143
+#: wp-admin/about.php:176
 msgid "Need more flexibility than that? You can also choose your own color palette from the color picker."
 msgstr "그보다 좀 더 유연할 필요가 있나요? 색상 선택 도구에서 자신의 여러 색상을 선택할 수도 있습니다."
 
-#: wp-admin/about.php:142
+#: wp-admin/about.php:175
 msgid "Perfect for a new year, Twenty Twenty-One gives you a range of pre-selected color palettes in pastel, all of which meet AAA standards for contrast. You can also choose your own background color for the theme, and the theme chooses accessibility-conscious text colors for you — automatically!"
 msgstr "새 해에 완벽한, 이공이일은 사전에 선택한 파스텔톤의 색상 색깔들을 제공합니다. 이 모든 색상은 대비에 대한 AAA를 충족합니다. 또한 자신의 테마용 배경색을 선택할 수 있고, 테마는 여러분을 위해 접근성을 고려한 문자 색을 자동으로 선택합니다!"
 
-#: wp-admin/about.php:139
+#: wp-admin/about.php:172
 msgid "A rainbow of soft pastels"
 msgstr "부드러운 파스텔의 무지개"
 
-#: wp-admin/about.php:102
+#: wp-admin/about.php:135
 msgid "Twenty Twenty-One is a blank canvas for your ideas, and the block editor is the best brush. It is built for the block editor and packed with brand-new block patterns you can only get in the default themes. Try different layouts in a matter of seconds, and let the theme’s eye-catching, yet timeless design make your work shine."
 msgstr "이공이일은 생각을 담을 빈 캔버스이고, 블록 편집기는 최고의 붓입니다. 기본 테마에서만 얻을 수 있는 새로운 블록 패턴을 내장하고 있습니다. 짧은 시간 안에 다양한 래이아웃을 시도하고 테마의 시선을 사로잡으면서 시대를 초월한 디자인으로 작업을 빛내세요."
 
-#: wp-admin/about.php:99
+#: wp-admin/about.php:132
 msgid "Twenty Twenty-One is here!"
 msgstr "이공이일이 여기에 있습니다!"
 
-#: wp-admin/about.php:85
+#: wp-admin/about.php:118
 msgid "In select themes, preconfigured block patterns make setting up standard pages on your site a breeze. Find the power of patterns to streamline your workflow, or share some of that power with your clients and save yourself a few clicks."
 msgstr "테마 선택에서, 사전에 구성한 블록 패턴을 사이트의 표준 페이지로 설정하도록 만듭니다. 작업 흐름을 간소화하는 패턴의 힘을 찾거나, 그 힘의 일부를 고객과 공유하고 몇 번만 눌러 절약합니다."
 
-#: wp-admin/about.php:84
+#: wp-admin/about.php:117
 msgid "More block patterns"
 msgstr "더 많은 블록 패턴"
 
-#: wp-admin/about.php:78
+#: wp-admin/about.php:111
 msgid "Bring your stories to life with more tools that let you edit your layout with or without code. Single column blocks, designs using mixed widths and columns, full-width headers, and videos in your cover block—make small changes or big statements with equal ease!"
 msgstr "코드 없이 래이아웃을 편집하도록 하는 좀 더 많은 도구로 이야기를 삶 속으로 가져오세요. 단일 열 블록,  넓이와 열을 사용하는 설계, 전체 넓이 헤더와 표지 블록의 비디오 등 작은 변경사항이나 큰 구문을 똑같이 쉽게 만들 수 있습니다!"
 
-#: wp-admin/about.php:77
+#: wp-admin/about.php:110
 msgid "Greater layout flexibility"
 msgstr "더 향상한 레이아웃 유연성"
 
@@ -224,7 +244,7 @@ msgstr "<strong>사이트 건강 상태</strong> &mdash; 웹사이트의 성능�
 
 #. translators: %s: Application name.
 #: wp-admin/user-edit.php:874 wp-admin/authorize-application.php:191
-#: wp-admin/js/auth-app.js:87
+#: wp-admin/js/auth-app.js:90
 msgid "Your new password for %s is:"
 msgstr "%s에 대한 새 비밀번호:"
 
@@ -236,7 +256,7 @@ msgstr "새 응용 프로그램 비밀번호 추가하기"
 msgid "Required to create an Application Password, but not to update the user."
 msgstr "응용 프로그램 비밀번호를 만들 필요가 있지만, 사용자는 업데이트하지 않습니다."
 
-#: wp-admin/about.php:256
+#: wp-admin/about.php:289
 msgid "Go to Updates"
 msgstr "업데이트로 가기"
 
@@ -278,25 +298,25 @@ msgstr "%s 위치를 찾을 수 없습니다. 다른 인근 도시를 선택하�
 msgid "Or"
 msgstr "또는"
 
-#: wp-admin/authorize-application.php:298
+#: wp-admin/authorize-application.php:302
 msgid "You will be returned to the WordPress Dashboard, and no changes will be made."
 msgstr "워드프레스 알림판으로 돌아가고, 변경사항을 저장하지 않을 것입니다."
 
-#: wp-admin/authorize-application.php:280
+#: wp-admin/authorize-application.php:284
 msgid "No, I do not approve of this connection."
 msgstr "아니오.이 연결을 승인하지 않습니다."
 
-#: wp-admin/authorize-application.php:273
+#: wp-admin/authorize-application.php:277
 msgid "You will be given a password to manually enter into the application in question."
 msgstr "문제의 응용 프로그램에 수동으로 입력할 수 있는 비밀번호를 제공합니다."
 
 #. translators: %s: The URL the user is being redirected to.
-#: wp-admin/authorize-application.php:260
-#: wp-admin/authorize-application.php:294
+#: wp-admin/authorize-application.php:264
+#: wp-admin/authorize-application.php:298
 msgid "You will be sent to %s"
 msgstr "%s에 보낼 것입니다"
 
-#: wp-admin/authorize-application.php:246
+#: wp-admin/authorize-application.php:250
 msgid "Yes, I approve of this connection."
 msgstr "네, 이 연결을 승인합니다."
 
@@ -333,15 +353,15 @@ msgid "Authorize Application"
 msgstr "응용 프로그램 인증하기"
 
 #: wp-admin/user-edit.php:881 wp-admin/authorize-application.php:198
-#: wp-admin/js/auth-app.js:95
+#: wp-admin/js/auth-app.js:98
 msgid "Be sure to save this in a safe location. You will not be able to retrieve it."
 msgstr "안전한 위치에 저장하는게 확실한가요? 가져올 수 없게 될 것입니다."
 
-#: wp-admin/user-edit.php:747 wp-admin/authorize-application.php:223
+#: wp-admin/user-edit.php:747 wp-admin/authorize-application.php:227
 msgid "WordPress App on My Phone"
 msgstr "내 전화의 워드프레스 앱"
 
-#: wp-admin/user-edit.php:746 wp-admin/authorize-application.php:222
+#: wp-admin/user-edit.php:746 wp-admin/authorize-application.php:226
 msgid "New Application Password Name"
 msgstr "새 응용 프로그램 이름"
 
@@ -624,7 +644,7 @@ msgstr "“%1$s” 값은 “%2$s”보다 작습니다."
 msgid "Environment type"
 msgstr "환경 유형"
 
-#: wp-admin/about.php:238
+#: wp-admin/about.php:271
 msgid "Check the Field Guide for more!"
 msgstr "추가 사항에 대한 항목 지침을 확인하세요!"
 
@@ -1149,7 +1169,7 @@ msgid "Text"
 msgstr "문자"
 
 #: wp-admin/includes/meta-boxes.php:353 wp-admin/includes/meta-boxes.php:354
-#: wp-admin/js/post.js:758
+#: wp-admin/js/post.js:766
 msgctxt "post action/button label"
 msgid "Schedule"
 msgstr "예약"
@@ -1466,29 +1486,29 @@ msgid "This localized version contains both the translation and various other lo
 msgstr "이 지역화한 버전은 번역과 여러 다른 지역화 수정을 모두 포함합니다."
 
 #. translators: 1: Number of issues. 2: URL to Site Health screen.
-#: wp-admin/includes/dashboard.php:1863
+#: wp-admin/includes/dashboard.php:1878
 msgid "Take a look at the <strong>%1$d item</strong> on the <a href=\"%2$s\">Site Health screen</a>."
 msgid_plural "Take a look at the <strong>%1$d items</strong> on the <a href=\"%2$s\">Site Health screen</a>."
 msgstr[0] "<strong>%1$d개 항목</strong>을 <a href=\"%2$s\">사이트 건강 화면</a>에서 살펴보세요."
 
-#: wp-admin/includes/dashboard.php:1853
+#: wp-admin/includes/dashboard.php:1868
 msgid "Your site&#8217;s health is looking good, but there are still some things you can do to improve its performance and security."
 msgstr "사이트의 건강은 좋아 보이지만, 여전히 성능과 보안을 개선하기 위해 할 수 있는 것들이 있습니다."
 
-#: wp-admin/includes/dashboard.php:1851
+#: wp-admin/includes/dashboard.php:1866
 msgid "Great job! Your site currently passes all site health checks."
 msgstr "잘 했습니다! 현재 사이트는 모든 사이트 건강 확인을 통과했습니다."
 
-#: wp-admin/includes/dashboard.php:1849
+#: wp-admin/includes/dashboard.php:1864
 msgid "Your site has critical issues that should be addressed as soon as possible to improve its performance and security."
 msgstr "사이트는 성능과 보안을 개선하기 위해 가능한 빨리 해결해야 하는 치명적인 문제가 있습니다."
 
 #. translators: %s: URL to Site Health screen.
-#: wp-admin/includes/dashboard.php:1841
+#: wp-admin/includes/dashboard.php:1856
 msgid "Site health checks will automatically run periodically to gather information about your site. You can also <a href=\"%s\">visit the Site Health screen</a> to gather information about your site now."
 msgstr "사이트에 대한 정보를 모으기 위해 사이트 건강 확인을 주기적으로 자동으로 실행합니다. 지금 사이트에 대한 정보를 모은 <a href=\"%s\">사이트 건강 확인 화면을 방문</a>할 수도 있습니다."
 
-#: wp-admin/includes/dashboard.php:1829
+#: wp-admin/includes/dashboard.php:1844
 msgid "No information yet&hellip;"
 msgstr "아직 정보가 없습니다&hellip;"
 
@@ -1761,7 +1781,7 @@ msgstr "<a href=\"https://wordpress.org/support/article/users-add-new-screen/\">
 msgid "This page can show you every detail about the configuration of your WordPress website. For any improvements that could be made, see the <a href=\"%s\">Site Health Status</a> page."
 msgstr "이 페이지는 워드프레스 웹사이트의 구성에 대한 모든 것을 보일 수 있습니다. 개선할 수 있는 사항은, <a href=\"%s\">Site Health Status</a> 페이지를 보세요."
 
-#: wp-admin/includes/dashboard.php:1831 wp-admin/site-health-info.php:47
+#: wp-admin/includes/dashboard.php:1846 wp-admin/site-health-info.php:47
 #: wp-admin/site-health.php:52
 msgid "Results are still loading&hellip;"
 msgstr "결과를 여전히 로드 중&hellip;"
@@ -1844,7 +1864,7 @@ msgstr "https://wordpress.org/support/article/giving-wordpress-its-own-directory
 msgid "<a href=\"https://wordpress.org/support/article/settings-general-screen/\">Documentation on General Settings</a>"
 msgstr "<a href=\"https://wordpress.org/support/article/settings-general-screen/\">일반 설정의 문서</a>"
 
-#: wp-admin/includes/dashboard.php:1942
+#: wp-admin/includes/dashboard.php:1957
 msgid "https://wordpress.org/support/article/first-steps-with-wordpress/"
 msgstr "https://wordpress.org/support/article/first-steps-with-wordpress/"
 
@@ -1920,11 +1940,6 @@ msgstr "예약한 이벤트가 늦었습니다"
 msgid "An HTTPS connection is a more secure way of browsing the web. Many services now have HTTPS as a requirement. HTTPS allows you to take advantage of new features that can increase site speed, improve search rankings, and gain the trust of your visitors by helping to protect their online privacy."
 msgstr "HTTPS 연결은 웹을 탐색하는 좀 더 안전한 방법입니다. 이제 많은 서비스에서 HTTPS를 필요로 합니다. HTTPS는 사이트 속도를 늘리고, 검색 순위를 개선하고, 방문자의 온라인 개인정보를 보호하도록 도와 신뢰를 얻을 수 있게 하는 새 기능의 이점을 취하도록 합니다."
 
-#. translators: %s: The minimum recommended PHP version.
-#: wp-admin/includes/class-wp-site-health.php:729
-msgid "PHP is the programming language used to build and maintain WordPress. Newer versions of PHP are faster and more secure, so staying up to date will help your site&#8217;s overall performance and security. The minimum recommended version of PHP is %s."
-msgstr "PHP는 워드프레스를 구축하고 유지보수하는데 사용한 프로그래밍 언어입니다. PHP의 새 버전은 좀 더 빠르고 좀 더 안전하기에, 사이트 전체의 성능과 보안에 도움을 줍니다. PHP의 최소 요구 버전은 %s입니다."
-
 #. translators: %s: The current version of WordPress installed on this site.
 #: wp-admin/includes/class-wp-site-health.php:321
 msgid "Your version of WordPress (%s) is up to date"
@@ -1985,7 +2000,7 @@ msgstr "H:i"
 #: wp-admin/edit-form-advanced.php:175 wp-admin/edit-form-comment.php:128
 msgctxt "publish box date format"
 msgid "M j, Y"
-msgstr "Y m D"
+msgstr "Y년 F j일"
 
 #. translators: 1: Marker.
 #: wp-admin/includes/misc.php:136
@@ -2006,7 +2021,7 @@ msgstr "오른쪽으로 회전하기"
 msgid "Rotate left"
 msgstr "왼쪽으로 회전하기"
 
-#: wp-admin/includes/class-wp-site-health-auto-updates.php:145
+#: wp-admin/includes/class-wp-site-health-auto-updates.php:147
 msgid "All automatic updates are disabled."
 msgstr "모든 자동 업데이트를 활성 해제합니다."
 
@@ -2154,7 +2169,7 @@ msgstr "%1$s는 %2$s 객체여야 합니다."
 msgid "You are in recovery mode. This means there may be an error with a theme or plugin. To exit recovery mode, log out or use the Exit button. <a href=\"%s\">Exit Recovery Mode</a>"
 msgstr "복구 모드에 있습니다. 이는 테마나 플러그인에 오류가 있을 수도 있다는 것을 의미합니다. 복구 모드를 나가려면, 로그아웃하거나 나가기 버튼을 사용하세요. <a href=\"%s\">복구 모드 나가기</a>"
 
-#: wp-admin/about.php:158
+#: wp-admin/about.php:191
 msgid "Improvements for everyone"
 msgstr "모두를 위한 개선사항"
 
@@ -2225,10 +2240,6 @@ msgstr "SQL 서버는 워드프레스가 사이트의 콘텐츠와 설정을 모
 #: wp-admin/includes/class-wp-site-health.php:840
 msgid "PHP modules perform most of the tasks on the server that make your site run. Any changes to these must be made by your server administrator."
 msgstr "PHP 모듈은 사이트를 실행하도록 하는 작업 대부분을 수행합니다. 어떤 변경사항이든지 서버 관리자가 수행해야만 합니다."
-
-#: wp-admin/includes/dashboard.php:1759
-msgid "PHP is the programming language we use to build and maintain WordPress. Newer versions of PHP are both faster and more secure, so updating will have a positive effect on your site&#8217;s performance."
-msgstr "PHP는 워드프레스를 구축하고 유지보수하는 프로그래밍 언어입니다. PHP의 새 버전은 더 빠르고 더 안전하기에, 업데이트하는 것은 사이트의 성능이 긍정적인 영향을 줄 것입니다."
 
 #: wp-admin/includes/class-wp-site-health.php:494
 msgid "Manage your themes"
@@ -2996,102 +3007,102 @@ msgid "We were unable to check if any new versions of WordPress are available."
 msgstr "워드프레스의 새 버전을 사용할 수 있으면, 확인할 수 없습니다."
 
 #. translators: %s: Name of the filter used.
-#: wp-admin/includes/class-wp-site-health-auto-updates.php:447
+#: wp-admin/includes/class-wp-site-health-auto-updates.php:449
 msgid "WordPress security and maintenance releases are blocked by the %s filter."
 msgstr "워드프레스 보안과 유지보수 릴리즈를 %s 필터가 막고 있습니다."
 
 #. translators: %s: Name of the constant used.
-#: wp-admin/includes/class-wp-site-health-auto-updates.php:435
+#: wp-admin/includes/class-wp-site-health-auto-updates.php:437
 msgid "WordPress security and maintenance releases are blocked by %s."
 msgstr "워드프레스 보안과 유지 릴리즈를 %s이(가) 막고 있습니다."
 
 #. translators: %s: Name of the filter used.
-#: wp-admin/includes/class-wp-site-health-auto-updates.php:415
+#: wp-admin/includes/class-wp-site-health-auto-updates.php:417
 msgid "WordPress development updates are blocked by the %s filter."
 msgstr "워드프레스 개발 업데이트를 %s 필터가 막고 있습니다."
 
 #. translators: %s: Name of the constant used.
-#: wp-admin/includes/class-wp-site-health-auto-updates.php:403
+#: wp-admin/includes/class-wp-site-health-auto-updates.php:405
 msgid "WordPress development updates are blocked by the %s constant."
 msgstr "워드프레스 개발 업데이트를 %s 상수가 막고 있습니다."
 
-#: wp-admin/includes/class-wp-site-health-auto-updates.php:379
+#: wp-admin/includes/class-wp-site-health-auto-updates.php:381
 msgid "All of your WordPress files are writable."
 msgstr "모든 워드프레스 파일을 쓸 수 있습니다."
 
-#: wp-admin/includes/class-wp-site-health-auto-updates.php:374
+#: wp-admin/includes/class-wp-site-health-auto-updates.php:376
 msgid "Some files are not writable by WordPress:"
 msgstr "워드프레스가 일부 파일을 쓸 수 없습니다:"
 
-#: wp-admin/includes/class-wp-site-health-auto-updates.php:348
+#: wp-admin/includes/class-wp-site-health-auto-updates.php:350
 msgid "This could mean that connections are failing to WordPress.org."
 msgstr "WordPress.org에 연결에 실패했다는 것을 의미할 수 있습니다."
 
 #. translators: %s: WordPress version.
-#: wp-admin/includes/class-wp-site-health-auto-updates.php:345
+#: wp-admin/includes/class-wp-site-health-auto-updates.php:347
 msgid "Couldn't retrieve a list of the checksums for WordPress %s."
 msgstr "워드프레스 %s에 대한 체크섬의 목록을 가져올 수 없습니다."
 
-#: wp-admin/includes/class-wp-site-health-auto-updates.php:293
+#: wp-admin/includes/class-wp-site-health-auto-updates.php:295
 msgid "Your installation of WordPress doesn't require FTP credentials to perform updates."
 msgstr "워드프레스의 설치가 업데이트를 수행할 수 있는 FTP 자격증명이 필요하지 않습니다."
 
-#: wp-admin/includes/class-wp-site-health-auto-updates.php:284
+#: wp-admin/includes/class-wp-site-health-auto-updates.php:286
 msgid "(Your site is performing updates over FTP due to file ownership. Talk to your hosting company.)"
 msgstr "(사이트는 파일 소유권 때문에 FTP를 통한 업데이트를 수행하고 있습니다. 호스팅 회사와 대화하세요.)"
 
-#: wp-admin/includes/class-wp-site-health-auto-updates.php:283
+#: wp-admin/includes/class-wp-site-health-auto-updates.php:285
 msgid "Your installation of WordPress prompts for FTP credentials to perform updates."
 msgstr "워드프레스 설치는 업데이트를 수행할 수 있는 FTP 자격증명을 요구합니다."
 
-#: wp-admin/includes/class-wp-site-health-auto-updates.php:261
+#: wp-admin/includes/class-wp-site-health-auto-updates.php:263
 msgid "No version control systems were detected."
 msgstr "버전 관리 시스템을 감지하지 않았습니다."
 
 #. translators: 1: Folder name. 2: Version control directory.
-#: wp-admin/includes/class-wp-site-health-auto-updates.php:252
+#: wp-admin/includes/class-wp-site-health-auto-updates.php:254
 msgid "The folder %1$s was detected as being under version control (%2$s)."
 msgstr "버전 관리(%2$s) 아래에 있는 %1$s 폴더를 감지했습니다."
 
 #. translators: 1: Folder name. 2: Version control directory. 3: Filter name.
-#: wp-admin/includes/class-wp-site-health-auto-updates.php:239
+#: wp-admin/includes/class-wp-site-health-auto-updates.php:241
 msgid "The folder %1$s was detected as being under version control (%2$s), but the %3$s filter is allowing updates."
 msgstr "버전 관리(%2$s) 아래에 있는 %1$s 폴더를 감지했지만, %3$s 필터가 업데이트를 허용하고 있습니다."
 
-#: wp-admin/includes/class-wp-site-health-auto-updates.php:184
+#: wp-admin/includes/class-wp-site-health-auto-updates.php:186
 msgid "We'll try again with the next release."
 msgstr "다음 릴리즈에 다시 시도할 것입니다."
 
-#: wp-admin/includes/class-wp-site-health-auto-updates.php:179
+#: wp-admin/includes/class-wp-site-health-auto-updates.php:181
 msgid "A previous automatic background update could not occur."
 msgstr "이전 자동 배경 업데이트를 하지 않았습니다."
 
 #. translators: %s: Code of error shown.
-#: wp-admin/includes/class-wp-site-health-auto-updates.php:170
-#: wp-admin/includes/class-wp-site-health-auto-updates.php:187
+#: wp-admin/includes/class-wp-site-health-auto-updates.php:172
+#: wp-admin/includes/class-wp-site-health-auto-updates.php:189
 msgid "The error code was %s."
 msgstr "오류 코드는 %s였습니다."
 
-#: wp-admin/includes/class-wp-site-health-auto-updates.php:167
+#: wp-admin/includes/class-wp-site-health-auto-updates.php:169
 msgid "When you've been able to update using the \"Update Now\" button on Dashboard > Updates, we'll clear this error for future update attempts."
 msgstr "알림판 > 업데이트에서 “지금 업데이트하기” 버튼을 사용하여 업데이트할 수 있을 때, 이후의 업데이트 시도에 대한 오류를 정리할 것입니다."
 
-#: wp-admin/includes/class-wp-site-health-auto-updates.php:166
-#: wp-admin/includes/class-wp-site-health-auto-updates.php:181
+#: wp-admin/includes/class-wp-site-health-auto-updates.php:168
+#: wp-admin/includes/class-wp-site-health-auto-updates.php:183
 msgid "You would have received an email because of this."
 msgstr "이 때문에 메일을 받았습니다."
 
-#: wp-admin/includes/class-wp-site-health-auto-updates.php:165
+#: wp-admin/includes/class-wp-site-health-auto-updates.php:167
 msgid "A previous automatic background update ended with a critical failure, so updates are now disabled."
 msgstr "이전 자동 배경 업데이트가 치명적인 실패로 마쳤기에, 이제 업데이트를 활성 해제했습니다."
 
 #. translators: %s: Name of the filter used.
-#: wp-admin/includes/class-wp-site-health-auto-updates.php:118
+#: wp-admin/includes/class-wp-site-health-auto-updates.php:120
 msgid "The %s filter is enabled."
 msgstr "%s 필터를 활성화했습니다."
 
 #. translators: %s: Name of the filter used.
-#: wp-admin/includes/class-wp-site-health-auto-updates.php:97
+#: wp-admin/includes/class-wp-site-health-auto-updates.php:99
 msgid "A plugin has prevented updates by disabling %s."
 msgstr "%s을(를) 활성 해제하여 플러그인 업데이트를 차단했습니다."
 
@@ -3606,30 +3617,18 @@ msgstr "<a href=\"%1$s\">워드프레스 %2$s</a>은(는) MySQL 버전 %3$s 또�
 msgid "You cannot install because <a href=\"%1$s\">WordPress %2$s</a> requires PHP version %3$s or higher. You are running version %4$s."
 msgstr "<a href=\"%1$s\">워드프레스 %2$s</a>은(는) PHP 버전 %3$s 또는 그 이상이 필요하기에 설치할 수 없습니다. %4$s 버전을 실행하고 있습니다."
 
-#: wp-admin/includes/dashboard.php:1925
+#: wp-admin/includes/dashboard.php:1940
 msgid "Set up your homepage"
 msgstr "홈페이지 설정하기"
 
 #: wp-admin/includes/class-wp-site-health.php:736
-#: wp-admin/includes/dashboard.php:1766
+#: wp-admin/includes/dashboard.php:1781
 msgid "Learn more about updating PHP"
 msgstr "PHP 업데이트하기에 대해 더 알아보세요"
 
-#: wp-admin/includes/dashboard.php:1758
+#: wp-admin/includes/dashboard.php:1765
 msgid "What is PHP and how does it affect my site?"
 msgstr "PHP는 무엇이고 사이트에 어떤 영향을 주나요?"
-
-#: wp-admin/includes/dashboard.php:1752
-msgid "WordPress has detected that your site is running on an outdated version of PHP."
-msgstr "워드프레스를 낡은 버전의 PHP에서 사이트에서 실행하고 있는 것을 감지했습니다."
-
-#: wp-admin/includes/dashboard.php:1750
-msgid "WordPress has detected that your site is running on an insecure version of PHP."
-msgstr "워드프레스를 안전하지 않은 PHP 버전에서 사이트에서 실행하고 있는 것을 감지했습니다."
-
-#: wp-admin/includes/dashboard.php:42
-msgid "PHP Update Required"
-msgstr "PHP 업데이트가 필요합니다"
 
 #: wp-admin/includes/plugin.php:2482
 msgid "You can find more details and make changes on the Plugins screen."
@@ -3719,8 +3718,9 @@ msgid "Cannot Install"
 msgstr "설치할 수 없습니다"
 
 #. translators: %s: WordPress version.
+#. translators: %s: WordPress version
 #: wp-admin/includes/update.php:305 wp-admin/install.php:238
-#: wp-admin/update-core.php:82 wp-admin/upgrade.php:80
+#: wp-admin/update-core.php:82 wp-admin/upgrade.php:80 wp-admin/about.php:96
 msgid "https://wordpress.org/support/wordpress-version/version-%s/"
 msgstr "https://wordpress.org/support/wordpress-version/version-%s/"
 
@@ -6153,7 +6153,7 @@ msgid "(Currently set to: %s)"
 msgstr "(현재 설정: %s)"
 
 #. translators: %s: WordPress version number.
-#: wp-admin/about.php:279
+#: wp-admin/about.php:312
 msgid "<strong>Version %s</strong> addressed one security issue."
 msgstr "<strong>버전 %s</strong>은(는) 보안 문제를 해결했습니다."
 
@@ -6165,15 +6165,15 @@ msgstr "https://en.gravatar.com/"
 msgid "Profile Picture"
 msgstr "프로필 사진"
 
-#: wp-admin/about.php:276
+#: wp-admin/about.php:309
 msgid "Maintenance and Security Releases"
 msgstr "유지보수와 보안 릴리스"
 
-#: wp-admin/about.php:273
+#: wp-admin/about.php:306
 msgid "Security Releases"
 msgstr "보안 릴리스"
 
-#: wp-admin/about.php:270
+#: wp-admin/about.php:303
 msgid "Maintenance Releases"
 msgstr "유지보수 릴리즈"
 
@@ -7178,7 +7178,7 @@ msgstr "응답한 위치"
 
 #. translators: 1: Month, 2: Day, 3: Year, 4: Hour, 5: Minute.
 #: wp-admin/includes/template.php:833 wp-admin/js/comment.js:89
-#: wp-admin/js/post.js:775
+#: wp-admin/js/post.js:783
 msgid "%1$s %2$s, %3$s at %4$s:%5$s"
 msgstr "%1$s %2$s, %3$s %4$s:%5$s"
 
@@ -7620,11 +7620,11 @@ msgstr "가시성 편집하기"
 msgid "Edit status"
 msgstr "상태 편집하기"
 
-#: wp-admin/includes/dashboard.php:1937
+#: wp-admin/includes/dashboard.php:1952
 msgid "Manage menus"
 msgstr "메뉴 관리하기"
 
-#: wp-admin/includes/dashboard.php:1934
+#: wp-admin/includes/dashboard.php:1949
 msgid "Manage widgets"
 msgstr "위젯 관리하기"
 
@@ -8554,11 +8554,11 @@ msgstr "메뉴 위치를 업데이트했습니다."
 msgid "Your latest changes were saved as a revision."
 msgstr "최근 변경사항을 리비전으로 저장했습니다."
 
-#: wp-admin/includes/media.php:3428
+#: wp-admin/includes/media.php:3429
 msgid "Audio Codec:"
 msgstr "오디오 코덱:"
 
-#: wp-admin/includes/media.php:3427
+#: wp-admin/includes/media.php:3428
 msgid "Audio Format:"
 msgstr "오디오 형식:"
 
@@ -8774,15 +8774,15 @@ msgstr "이 페이지의 헤더 문자 구역에서, 이 문자를 보이거나 
 msgid "You can also choose a background color by clicking the Select Color button and either typing in a legitimate HTML hex value, e.g. &#8220;#ff0000&#8221; for red, or by choosing a color using the color picker."
 msgstr "색상 선택하기 버튼을 누르거나 규칙에 맞는 HTML 헥스 값을 입력하여 배경 색을 선택할 수도 있습니다. 예. 빨간색은 &#8220;#ff0000&#8221;, 또는 색상 선택 도구를 사용하여 색상을 선택하세요."
 
-#: wp-admin/includes/dashboard.php:1942
+#: wp-admin/includes/dashboard.php:1957
 msgid "Learn more about getting started"
 msgstr "시작하는 것에 대하여 더 알아보세요"
 
-#: wp-admin/includes/dashboard.php:1940
+#: wp-admin/includes/dashboard.php:1955
 msgid "Turn comments on or off"
 msgstr "댓글 켜기 또는 끄기"
 
-#: wp-admin/includes/dashboard.php:1931
+#: wp-admin/includes/dashboard.php:1946
 msgid "More Actions"
 msgstr "추가 동작"
 
@@ -8866,48 +8866,48 @@ msgstr "WordPress.org 사용자 이름:"
 msgid "If you have marked plugins as favorites on WordPress.org, you can browse them here."
 msgstr "WordPress.org에서 선호하는 것으로 표시한 플러그인이 있다면, 여기에서 탐색할 수 있습니다."
 
-#: wp-admin/includes/dashboard.php:1927
+#: wp-admin/includes/dashboard.php:1942
 msgid "View your site"
 msgstr "사이트 보기"
 
-#: wp-admin/includes/dashboard.php:1924
+#: wp-admin/includes/dashboard.php:1939
 msgid "Add an About page"
 msgstr "소개 페이지 추가하기"
 
-#: wp-admin/includes/dashboard.php:1923
+#: wp-admin/includes/dashboard.php:1938
 msgid "Write your first blog post"
 msgstr "첫 블로그 글 쓰기"
 
-#: wp-admin/includes/dashboard.php:1921
+#: wp-admin/includes/dashboard.php:1936
 msgid "Add a blog post"
 msgstr "블로그 글 추가하기"
 
-#: wp-admin/includes/dashboard.php:1917 wp-admin/includes/dashboard.php:1920
+#: wp-admin/includes/dashboard.php:1932 wp-admin/includes/dashboard.php:1935
 msgid "Add additional pages"
 msgstr "추가 페이지 추가하기"
 
-#: wp-admin/includes/dashboard.php:1916 wp-admin/includes/dashboard.php:1919
+#: wp-admin/includes/dashboard.php:1931 wp-admin/includes/dashboard.php:1934
 msgid "Edit your front page"
 msgstr "프론테 페이지 편집하기"
 
-#: wp-admin/includes/dashboard.php:1913
+#: wp-admin/includes/dashboard.php:1928
 msgid "Next Steps"
 msgstr "다음 단계"
 
 #. translators: %s: URL to Themes panel in Customizer or Themes screen.
-#: wp-admin/includes/dashboard.php:1907
+#: wp-admin/includes/dashboard.php:1922
 msgid "or, <a href=\"%s\">change your theme completely</a>"
 msgstr "또는, <a href=\"%s\">테마를 완전히 바꾸세요</a>"
 
-#: wp-admin/includes/dashboard.php:1898
+#: wp-admin/includes/dashboard.php:1913
 msgid "Get Started"
 msgstr "시작하기"
 
-#: wp-admin/includes/dashboard.php:1894
+#: wp-admin/includes/dashboard.php:1909
 msgid "We&#8217;ve assembled some links to get you started:"
 msgstr "시작할 수 있는 몇 개의 링크를 모았습니다:"
 
-#: wp-admin/includes/dashboard.php:1893
+#: wp-admin/includes/dashboard.php:1908
 msgid "Welcome to WordPress!"
 msgstr "워드 프레스에 오신 것을 환영합니다!"
 
@@ -9177,16 +9177,16 @@ msgstr "https://wordpress.org/about/"
 msgid "Select All"
 msgstr "모두 선택하기"
 
-#: wp-admin/includes/meta-boxes.php:175 wp-admin/js/post.js:866
+#: wp-admin/includes/meta-boxes.php:175 wp-admin/js/post.js:874
 msgid "Public, Sticky"
 msgstr "공개, 고정"
 
 #: wp-admin/includes/meta-boxes.php:108 wp-admin/includes/meta-boxes.php:143
-#: wp-admin/js/post.js:789 wp-admin/js/post.js:791
+#: wp-admin/js/post.js:797 wp-admin/js/post.js:799
 msgid "Privately Published"
 msgstr "비공개로 발행했습니다"
 
-#: wp-admin/includes/meta-boxes.php:59 wp-admin/js/post.js:820
+#: wp-admin/includes/meta-boxes.php:59 wp-admin/js/post.js:828
 msgid "Save as Pending"
 msgstr "보류 중인 상태로 저장하기"
 
@@ -9641,27 +9641,28 @@ msgstr "이 사이트에 초대할 이 네트워크에 존재하는 사용자의
 msgid "Show Toolbar when viewing site"
 msgstr "사이트를 볼 때 도구모음을 보기"
 
+#. translators: %s: HelpHub URL
 #. translators: %s: Documentation URL.
-#: wp-admin/about.php:302
+#: wp-admin/about.php:93 wp-admin/about.php:335
 msgid "For more information, see <a href=\"%s\">the release notes</a>."
 msgstr "자세한 정보는 <a href=\"%s\">릴리즈 안내</a>를 참고하세요."
 
 #. translators: 1: WordPress version number, 2: Plural number of bugs. More
 #. than one security issue.
-#: wp-admin/about.php:296
+#: wp-admin/about.php:329
 msgid "<strong>Version %1$s</strong> addressed some security issues and fixed %2$s bug."
 msgid_plural "<strong>Version %1$s</strong> addressed some security issues and fixed %2$s bugs."
 msgstr[0] "<strong>버전 %1$s</strong>이(가) 몇 가지 보안 문제를 해결하고 %2$s 버그를 수정했습니다."
 
 #. translators: 1: WordPress version number, 2: Plural number of bugs. Singular
 #. security issue.
-#: wp-admin/about.php:290
+#: wp-admin/about.php:323
 msgid "<strong>Version %1$s</strong> addressed a security issue and fixed %2$s bug."
 msgid_plural "<strong>Version %1$s</strong> addressed a security issue and fixed %2$s bugs."
 msgstr[0] "<strong>버전 %1$s</strong>이(가) 보안 문제를 해결하고 %2$s 버그를 수정했습니다."
 
 #. translators: 1: WordPress version number, 2: Plural number of bugs.
-#: wp-admin/about.php:284
+#: wp-admin/about.php:81 wp-admin/about.php:317
 msgid "<strong>Version %1$s</strong> addressed %2$s bug."
 msgid_plural "<strong>Version %1$s</strong> addressed %2$s bugs."
 msgstr[0] "<strong>버전 %1$s</strong>이(가) %2$s 버그를 해결했습니다."
@@ -9671,19 +9672,19 @@ msgid "Welcome to your WordPress Dashboard! This is the screen you will see when
 msgstr "워드프레스 알림판에 온 것을 환영합니다! 이 화면은 사이트에 로그인 했을 때 보이고, 워드프레스의 모든 사이트 관리 기능에 접근하게 합니다. 어떤 화면에서든 화면 제목의 위에 있는 도움말 탭을 눌러 도움을 얻을 수 있습니다."
 
 #. translators: %s: WordPress version number.
-#: wp-admin/about.php:281
+#: wp-admin/about.php:314
 msgid "<strong>Version %s</strong> addressed some security issues."
 msgstr "<strong>버전 %s</strong>은(는) 보안 문제를 처리했습니다."
 
-#: wp-admin/about.php:275
+#: wp-admin/about.php:308
 msgid "Maintenance and Security Release"
 msgstr "유지 보수와 보안 릴리스"
 
-#: wp-admin/about.php:272
+#: wp-admin/about.php:305
 msgid "Security Release"
 msgstr "보안 릴리스"
 
-#: wp-admin/about.php:269
+#: wp-admin/about.php:76 wp-admin/about.php:302
 msgid "Maintenance Release"
 msgstr "유지 보수 릴리스"
 
@@ -9973,11 +9974,11 @@ msgstr "왜냐하면 이는 다중 사이트 설치이기 때문입니다. 사�
 msgid "Welcome to WordPress %s."
 msgstr "워드프레스 %s에 온 것을 환영합니다."
 
-#: wp-admin/about.php:259
+#: wp-admin/about.php:292
 msgid "Go to Dashboard &rarr; Home"
 msgstr "알림판 &rarr; 홈으로 이동하기"
 
-#: wp-admin/about.php:256
+#: wp-admin/about.php:289
 msgid "Go to Dashboard &rarr; Updates"
 msgstr "알림판 &rarr; 업데이트로 이동하기"
 
@@ -9985,11 +9986,11 @@ msgstr "알림판 &rarr; 업데이트로 이동하기"
 msgid "WordPress is created by a worldwide team of passionate individuals."
 msgstr "워드프레스는 열정적인 개인의 세계적인 팀이 만들었습니다."
 
-#: wp-admin/about.php:188
+#: wp-admin/about.php:221
 msgid "For developers"
 msgstr "개발자를 위하여"
 
-#: wp-admin/includes/dashboard.php:1899 wp-admin/includes/dashboard.php:1901
+#: wp-admin/includes/dashboard.php:1914 wp-admin/includes/dashboard.php:1916
 msgid "Customize Your Site"
 msgstr "사이트 사용자 정의하기"
 
@@ -11807,7 +11808,7 @@ msgstr "워드프레스 업데이트"
 msgid "Edit menu item"
 msgstr "메뉴 항목 편집하기"
 
-#: wp-admin/about.php:259 wp-admin/includes/network.php:148
+#: wp-admin/about.php:292 wp-admin/includes/network.php:148
 msgid "Go to Dashboard"
 msgstr "알림판으로 가기"
 
